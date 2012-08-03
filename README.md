@@ -19,22 +19,10 @@ __Integratsiooni testimine__ tähendab eraldiseisvate süsteemi komponentide suh
 PRAKTIKA JA ARUTELU (60 minutit)
 
 * Ruby 1.9.3, Rails 3.2, MiniTest, Capybara
-  - Mis on MiniTest?
-  - Mis on Capybara?
-  - Mis on alternatiivid?
+  * Mis on MiniTest?
+  * Mis on Capybara?
+  * Mis on alternatiivid?
 * Nullist näidisrakenduse alustamine ja seadistamine
-* Lihtsa rakenduse arendamine (aja kokkuhoiu mõttes, valmistan selle kodus ette)
+* Lihtsa rakenduse arendamine
 * Rakenduse peal võimalikult erinevate stsenaariumite testimine
 
-
-
-Projekti alustamine:
-> mkdir proge1
-\*> rvm use 1.9.3
-\*> rvm gemset create proge1 
-\*> rvm --rvmrc --create 1.9.3@proge1
-\*> git init .
-\*> git add .
-\*> git commit -a -m “Initial commit”
-\*> gem install rails
-> rails new . -T
